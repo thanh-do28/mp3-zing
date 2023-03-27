@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main_interface.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menu_side">
+            <h1>mp3Zing</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i> play list</h4>
+                <h4 ><span></span><i class="bi bi-music-note-beamed"></i> last listensing</h4>
+                <h4 ><span></span><i class="bi bi-music-note-beamed"></i> Recommended</h4>
+            </div>
+            <div class="menu_song">
+                <li class="songItem">
+                    <span>01</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songItem">
+                    <span>02</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songItem">
+                    <span>03</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songItem">
+                    <span>04</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songItem">
+                    <span>05</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>                    
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songItem">
+                    <span>06</span>
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+                    <h5>
+                        On My May
+                        <div class="subtitle">Alan Walker</div>    
+                    </h5>
+                    <i class="bi playlistPlay bi-play-circle-fill" id="6"></i>
+                </li>
+            </div>
+        </div>
+
+
+        <div class="song_side">
+            <nav>
+                <ul>
+                    <li>Discovoer <span></span></li>
+                    <li>MY LIBRARI</li>
+                    <li>RADIO</li>
+                </ul>
+                <div class="search">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="Search Music">
+                </div>
+                <div class="user">
+                    <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="User" title="KDS CODER (thanh do)">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Alen mamf;almf;a</h1>
+                <p>
+                    hom nay em di hojc bjan danh em gan cheys hoanfkamfa.fm kamf;lfamkfa;sf <br>
+                    aflaskfnaksfnlasknfalskflaskflknalskfnaksfnlasnfksafnlaks
+                </p>
+                <div class="buttons">
+                    <button>PLAY</button>
+                    <button>FOLLOW</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="master_play">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="/images/3b97635b6bd4a5bfc436fbd3908f05e0.gif" alt="Alan">
+            <h5>On My May <br>
+                <div class="subtitle">Alan Walker</div>
+            </h5>
+            <div class="icon">
+                <i class="bi bi-skip-start-fill"></i>
+                <i class="bi bi-play-fill"></i>
+                <i class="bi bi-skip-end-fill"></i>
+            </div>
+            <span id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+
+            <div class="vol">
+                <i class="bi bi-volume-down-fill"></i>
+                <input type="range" id="vol" min="0" value="30" max="100">
+                <div class="vol_bar"></div>
+                <div class="dot" id="vol_dot"></div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
